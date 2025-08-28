@@ -1,3 +1,5 @@
+import Quiz from "./Quiz";
+
 export default function UseCases() {
   return (
     <main className="max-w-2xl mx-auto py-10 px-4">
@@ -8,6 +10,11 @@ export default function UseCases() {
         <li>Integrating context from multiple sources in enterprise systems</li>
         <li>Standardizing context for analytics and personalization</li>
       </ul>
+      <Quiz
+        question="Which is a use case for MCP?"
+        options={["Building modular, context-aware chatbots", "Making coffee", "Drawing images", "Sending emails automatically"]}
+        answer={0}
+      />
     </main>
   );
 }
